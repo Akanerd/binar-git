@@ -24,7 +24,7 @@ function reverseString(str) {
     return result 
 } 
 
-console.log("Hasilnya: " + reverseString('age'))
+console.log("Hasilnya: " + reverseString('hello'))
 
 
 function upperString(str) { 
@@ -40,5 +40,5 @@ function cirle(r) {
     return result 
 }
 
-console.log("Hasilnya: " + cirle(6))
+console.log("Hasilnya: " + cirle(6).toFixed(4))
 
