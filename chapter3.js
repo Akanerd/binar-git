@@ -12,7 +12,7 @@ console.log("Hasilnya: " + oddNumber(2))
 
 
 function evenNumber(bil){
-    result = bil % 2 != 0 
+    result = bil % 2 == 0 
     check = result ? "true" : "false";
     return check 
 }
